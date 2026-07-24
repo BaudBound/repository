@@ -1,7 +1,7 @@
 {
 	"format": "baudbound.repository",
 	"format_version": 1,
-	"name": "Official BaudBound script repository",
+	"name": "BaudBound repository",
 	"description": "A curated collection of official BaudBound scripts and examples for learning automation workflows and finding useful starting points for new projects.",
 	"homepage": "https://github.com/BaudBound/repository",
 	"scripts": [
@@ -36,12 +36,12 @@
 				"trigger.schedule"
 			],
 			"latest": {
-				"version": "1.0.0",
-				"package_url": "https://raw.githubusercontent.com/BaudBound/repository/master/packages/8ed5887f-4232-4592-8f58-dd99c9623a2a/example-scheduled-alternating-beeper-1.0.0.bbs",
-				"sha256": "0b7db5e24aaa3dd895d4a8bdee7ea4e825a3b955e3cecaf8d6efb07e96d04a09",
-				"size": 3972,
-				"published_at": "2026-07-24T11:51:54.495Z",
-				"release_notes": "Initial release. This example runs once per second and uses a persistent Boolean variable to alternate between 400 Hz and 800 Hz beeps. It demonstrates scheduled triggers, conditional branches, persistent variables, and sound actions."
+				"version": "1.0.1",
+				"package_url": "https://raw.githubusercontent.com/BaudBound/repository/master/packages/8ed5887f-4232-4592-8f58-dd99c9623a2a/example-scheduled-alternating-beeper-1.0.1.bbs",
+				"sha256": "dea7c3de9eff14363a5537b4a47bc4ce5ef618e1fc93dd4e8fb4214ec87f47f8",
+				"size": 3974,
+				"published_at": "2026-07-24T14:15:30.568Z",
+				"release_notes": "Updater test release. The script behavior is unchanged from version 1.0.0."
 			}
 		}
 	]
