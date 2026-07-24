@@ -39,9 +39,9 @@
 			"latest": {
 				"version": "1.0.2",
 				"package_url": "https://raw.githubusercontent.com/BaudBound/repository/master/packages/8ed5887f-4232-4592-8f58-dd99c9623a2a/example-scheduled-alternating-beeper-1.0.2.bbs",
-				"sha256": "805209cbd86f6774cc2ed2c10d2daf7b17f35daaf5c767fe10fe49f83a0cc2c4",
-				"size": 3981,
-				"published_at": "2026-07-24T15:15:53.105Z",
+				"sha256": "b188ae43b1a90338ca9f05c2824588c00a6d6c9e69c65e2481743dca269a58d4",
+				"size": 3982,
+				"published_at": "2026-07-24T15:23:25.991Z",
 				"release_notes": "Added Linux desktop support"
 			}
 		}
