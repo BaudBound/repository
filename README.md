@@ -5,7 +5,7 @@ This project hosts the official script catalog used by the BaudBound runner.
 The runner reads the raw public file at:
 
 ```text
-https://raw.githubusercontent.com/BaudBound/repository/main/repository.json
+https://raw.githubusercontent.com/BaudBound/repository/master/repository.json
 ```
 
 Published packages belong under:
@@ -37,4 +37,3 @@ Validation uses the canonical schema from [BaudBound/contracts](https://github.c
 ## Contributing
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing a script. Every contribution must include the exported package, complete repository metadata, a stable script identity, and enough information for reviewers to understand its behavior and required access.
-

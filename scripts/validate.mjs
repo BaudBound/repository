@@ -14,7 +14,7 @@ const contractsDirectory = path.resolve(
 const repositoryPath = path.join(root, "repository.json");
 const schemaPath = path.join(contractsDirectory, "repository.schema.json");
 const rawPrefix =
-  "https://raw.githubusercontent.com/BaudBound/repository/main/";
+  "https://raw.githubusercontent.com/BaudBound/repository/master/";
 
 const repositoryExists = await access(repositoryPath)
   .then(() => true)
