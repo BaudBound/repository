@@ -1,0 +1,48 @@
+{
+	"format": "baudbound.repository",
+	"format_version": 1,
+	"name": "Official BaudBound script repository",
+	"description": "A curated collection of official BaudBound scripts and examples for learning automation workflows and finding useful starting points for new projects.",
+	"homepage": "https://github.com/BaudBound/repository",
+	"scripts": [
+		{
+			"script_id": "8ed5887f-4232-4592-8f58-dd99c9623a2a",
+			"name": "Example - Scheduled alternating beeper",
+			"summary": "This official BaudBound example script demonstrates how to alternate between two beeping sounds using the scheduler.",
+			"description": "This official BaudBound example script demonstrates how to alternate between two beeping sounds using the scheduler.",
+			"author": "NATroutter",
+			"website": "https://NATroutter.fi",
+			"source": "https://github.com/BaudBound/repository",
+			"target_runtimes": [
+				"Windows Desktop"
+			],
+			"minimum_runner_version": "2.0.0",
+			"risk_level": "medium",
+			"tags": [
+				"beeper",
+				"scheduler",
+				"official",
+				"example"
+			],
+			"permissions": [
+				"beep",
+				"set_persistent_variable"
+			],
+			"capabilities": [
+				"action.sound",
+				"runtime.if",
+				"runtime.persistent_storage",
+				"runtime.variables",
+				"trigger.schedule"
+			],
+			"latest": {
+				"version": "1.0.0",
+				"package_url": "https://raw.githubusercontent.com/BaudBound/repository/master/packages/8ed5887f-4232-4592-8f58-dd99c9623a2a/example-scheduled-alternating-beeper-1.0.0.bbs",
+				"sha256": "0b7db5e24aaa3dd895d4a8bdee7ea4e825a3b955e3cecaf8d6efb07e96d04a09",
+				"size": 3972,
+				"published_at": "2026-07-24T11:51:54.495Z",
+				"release_notes": "Initial release. This example runs once per second and uses a persistent Boolean variable to alternate between 400 Hz and 800 Hz beeps. It demonstrates scheduled triggers, conditional branches, persistent variables, and sound actions."
+			}
+		}
+	]
+}
