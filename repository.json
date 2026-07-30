@@ -6,10 +6,10 @@
 	"homepage": "https://github.com/BaudBound/repository",
 	"scripts": [
 		{
-			"script_id": "8ed5887f-4232-4592-8f58-dd99c9623a2a",
-			"name": "Example - Scheduled alternating beeper",
-			"summary": "This official BaudBound example script demonstrates how to alternate between two beeping sounds using the scheduler.",
-			"description": "This official BaudBound example script demonstrates how to alternate between two beeping sounds using the scheduler.",
+			"script_id": "8bb0c704-e663-491c-b96f-0af25bcea0ae",
+			"name": "IP Address change notifier",
+			"summary": "Notifies user when their IP address changes",
+			"description": "Notifies user when their IP address changes",
 			"author": "NATroutter",
 			"website": "https://NATroutter.fi",
 			"source": "https://github.com/BaudBound/repository",
@@ -20,29 +20,32 @@
 			"minimum_runner_version": "2.0.0",
 			"risk_level": "medium",
 			"tags": [
-				"beeper",
-				"scheduler",
-				"official",
-				"example"
+				"ip",
+				"notification"
 			],
 			"permissions": [
-				"beep",
-				"set_persistent_variable"
+				"log",
+				"http.request",
+				"notification.show",
+				"variable.persistent.set"
 			],
 			"capabilities": [
-				"action.sound",
+				"action.http",
+				"action.log",
+				"action.notification",
 				"runtime.if",
 				"runtime.persistent_storage",
 				"runtime.variables",
+				"trigger.manual",
 				"trigger.schedule"
 			],
 			"latest": {
-				"version": "1.0.2",
-				"package_url": "https://raw.githubusercontent.com/BaudBound/repository/master/packages/8ed5887f-4232-4592-8f58-dd99c9623a2a/example-scheduled-alternating-beeper-1.0.2.bbs",
-				"sha256": "b188ae43b1a90338ca9f05c2824588c00a6d6c9e69c65e2481743dca269a58d4",
-				"size": 3982,
-				"published_at": "2026-07-24T15:23:25.991Z",
-				"release_notes": "Added Linux desktop support"
+				"version": "1.0.0",
+				"package_url": "https://raw.githubusercontent.com/BaudBound/repository/master/packages/8bb0c704-e663-491c-b96f-0af25bcea0ae/ip-address-change-notifier-1.0.0.bbs",
+				"sha256": "77b863442a0ddd92645f83ca7c6fac1aa1b4deeebe4efcc523e7d3b5db47c988",
+				"size": 5566,
+				"published_at": "2026-07-30T18:03:04.658Z",
+				"release_notes": "First release"
 			}
 		}
 	]
