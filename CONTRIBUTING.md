@@ -11,8 +11,9 @@ The official repository is reviewed more strictly than a personal repository. In
 5. Keep the safe script name and version in the filename.
 6. Generate the repository entry from the same editor export.
 7. Add or replace the matching entry in `repository.json`.
-8. Run `pnpm validate`.
-9. Explain what the script does, what starts it, and what side effects it can cause.
+8. Confirm the package URL is direct public HTTPS with no user information, query, fragment, signed-download parameters, login, cookies, or authentication headers.
+9. Run `pnpm validate`.
+10. Explain what the script does, what starts it, and what side effects it can cause.
 
 ## Review requirements
 
@@ -25,6 +26,7 @@ A contribution may be rejected when:
 5. It requests access that is not justified by its behavior.
 6. It contains credentials, personal data, or unsafe bundled assets.
 7. It replaces an existing versioned package file.
+8. Its repository or package URL requires credentials, cookies, signed parameters, a query, or a fragment.
 
 Reviewers may request changes before accepting a script. Every package still requires local review and approval by each runner operator.
 
@@ -39,4 +41,3 @@ The script ID must remain unchanged. The version must be newer than the publishe
 A script can be removed from the catalog when it is unsafe, misleading, abandoned, legally disputed, or no longer compatible.
 
 Removing a catalog entry does not uninstall copies that users already installed. A security notice should explain urgent removals when users need to take action.
-
