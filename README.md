@@ -16,6 +16,8 @@ packages/<script-id>/<safe-script-name>-<version>.bbs
 
 Every package filename is immutable. A new release gets a new versioned file. `repository.json` is updated only after the package is publicly available.
 
+Repository and package downloads are always public and anonymous. Their HTTPS URLs must not contain user information, query strings, fragments, signed-download parameters, or embedded credentials. Files must be directly downloadable without login, cookies, `Authorization`, or proxy-authentication headers, and every redirect must remain public anonymous HTTPS.
+
 The Official label identifies this catalog as maintained by the BaudBound project. It does not bypass package validation, approval, or runner security checks.
 
 ## Validation
@@ -26,7 +28,7 @@ Install dependencies:
 pnpm install
 ```
 
-Check `repository.json` and every referenced local package:
+Check `repository.json`, every remote URL policy, and every referenced local package:
 
 ```text
 pnpm validate
