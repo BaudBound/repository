@@ -42,9 +42,9 @@
 			"latest": {
 				"version": "1.0.0",
 				"package_url": "https://raw.githubusercontent.com/BaudBound/repository/master/packages/8bb0c704-e663-491c-b96f-0af25bcea0ae/ip-address-change-notifier-1.0.0.bbs",
-				"sha256": "77b863442a0ddd92645f83ca7c6fac1aa1b4deeebe4efcc523e7d3b5db47c988",
-				"size": 5566,
-				"published_at": "2026-07-30T18:03:04.658Z",
+				"sha256": "d0b05bf2be7334a2f028d8369facdb790b557f964785df5de72e01bddb44bc3a",
+				"size": 5569,
+				"published_at": "2026-08-07T17:27:05.838Z",
 				"release_notes": "First release"
 			}
 		}
