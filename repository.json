@@ -40,12 +40,12 @@
 				"trigger.schedule"
 			],
 			"latest": {
-				"version": "1.0.1",
-				"package_url": "https://raw.githubusercontent.com/BaudBound/repository/master/packages/8bb0c704-e663-491c-b96f-0af25bcea0ae/ip-address-change-notifier-1.0.1.bbs",
-				"sha256": "4c4ba5d83f404765a2ac33c937d770a282532caa20fa2d2e9ee20a2d73e4840b",
-				"size": 5462,
+				"version": "1.0.2",
+				"package_url": "https://raw.githubusercontent.com/BaudBound/repository/master/packages/8bb0c704-e663-491c-b96f-0af25bcea0ae/ip-address-change-notifier-1.0.2.bbs",
+				"sha256": "ac561ce48467d8b3898571c7d481ce45f4f3c136fabf07ea162ca443bfc9a227",
+				"size": 5790,
 				"published_at": "2026-08-08T21:15:07.834Z",
-				"release_notes": "Re-exported for the combined system_datetime variable, which replaces system_date and system_time."
+				"release_notes": "Re-exported for the reserved @ namespaces. Built-in values are now read as {{@system.datetime}}, {{@manifest.name}} and {{@settings.field}}."
 			}
 		}
 	]
