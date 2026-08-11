@@ -40,12 +40,12 @@
 				"trigger.schedule"
 			],
 			"latest": {
-				"version": "1.0.2",
-				"package_url": "https://raw.githubusercontent.com/BaudBound/repository/master/packages/8bb0c704-e663-491c-b96f-0af25bcea0ae/ip-address-change-notifier-1.0.2.bbs",
-				"sha256": "ac561ce48467d8b3898571c7d481ce45f4f3c136fabf07ea162ca443bfc9a227",
-				"size": 5790,
-				"published_at": "2026-08-08T21:15:07.834Z",
-				"release_notes": "Re-exported for the reserved @ namespaces. Built-in values are now read as {{@system.datetime}}, {{@manifest.name}} and {{@settings.field}}."
+				"version": "1.0.3",
+				"package_url": "https://raw.githubusercontent.com/BaudBound/repository/master/packages/8bb0c704-e663-491c-b96f-0af25bcea0ae/ip-address-change-notifier-1.0.3.bbs",
+				"sha256": "5ea5b20c2e93a416963a263822662c9cf37207bcfc7bd3cc806b541be8e12a2f",
+				"size": 5867,
+				"published_at": "2026-08-11T15:36:50.073Z",
+				"release_notes": "Re-exported for declared variables. current_ip is declared in the manifest, which is what makes it exist; a runner refuses a script that writes a variable nothing declares. Its first run is now recognised by the declared \"none\" value rather than by the variable being missing."
 			}
 		}
 	]
