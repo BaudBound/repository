@@ -40,12 +40,12 @@
 				"trigger.schedule"
 			],
 			"latest": {
-				"version": "1.0.2",
-				"package_url": "https://raw.githubusercontent.com/BaudBound/repository/master/packages/8bb0c704-e663-491c-b96f-0af25bcea0ae/ip-address-change-notifier-1.0.2.bbs",
-				"sha256": "ac561ce48467d8b3898571c7d481ce45f4f3c136fabf07ea162ca443bfc9a227",
-				"size": 5790,
-				"published_at": "2026-08-08T21:15:07.834Z",
-				"release_notes": "Re-exported for the reserved @ namespaces. Built-in values are now read as {{@system.datetime}}, {{@manifest.name}} and {{@settings.field}}."
+				"version": "1.0.4",
+				"package_url": "https://raw.githubusercontent.com/BaudBound/repository/master/packages/8bb0c704-e663-491c-b96f-0af25bcea0ae/ip-address-change-notifier-1.0.4.bbs",
+				"sha256": "57b95a4e3650c55ad0b8d63c9a465a7e84482f4d51d707753f6e34f5e9484213",
+				"size": 6075,
+				"published_at": "2026-09-10T15:04:16.920Z",
+				"release_notes": "Re-exported for the named node outcomes contract. The HTTP request node now continues through its ok outcome instead of the removed success output, so the script imports into runner 2.0.0 again. The graph and declared variables are unchanged."
 			}
 		}
 	]
